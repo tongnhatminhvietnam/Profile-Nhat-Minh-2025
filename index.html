@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tong Nhat Minh — Bilingual CV (EN • VI)</title>
+  <meta name="description" content="Bilingual CV (English & Vietnamese) of Tong Nhat Minh — Project Manager | Digital Products & Automation (Banking/Fintech)." />
+  <meta property="og:title" content="Tong Nhat Minh — Bilingual CV (EN • VI)" />
+  <meta property="og:description" content="Project Manager | Digital Products & Automation (Banking/Fintech). English over Vietnamese layout. Print-friendly." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#00D28F" />
+  <meta name="color-scheme" content="light" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7fafc;            /* light, clean background */
+      --card:#ffffff;           /* white cards */
+      --panel:#f7fafc;
+      --muted:#4b5b68;          /* neutral text */
+      --text:#0b1220;           /* main text */
+      --brand:#00D28F;          /* OPay‑style green */
+      --brand-2:#00C2A8;        /* teal accent */
+      --accent:#1f2937;         /* dark accent for outlines */
+      --ring: 0 0 0 2px rgba(0,210,143,.15), 0 6px 20px rgba(0,210,143,.18);
+      --radius:16px;
+    .shadow-hero{ box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+      .shadow-hero{ box-shadow: 0 10px 40px rgba(2,6,23,.08); }
+    }
+    html,body{margin:0;padding:0;background:#ffffff;color:var(--text);font-family:Inter, Segoe UI, Roboto, Arial, system-ui, sans-serif;font-size:16px;line-height:1.6;}
+    .container{max-width:980px;margin:56px auto;padding:0 24px;}
+    .card{background:#ffffff;border:1px solid rgba(0,0,0,.08);border-radius:var(--radius);overflow:hidden;}
+    header.hero{display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;padding:28px 24px 20px;background:#ffffff;border-bottom:1px solid rgba(0,0,0,.08);} .hero-left{display:flex;flex-direction:column;gap:8px} .avatar{width:132px;height:132px;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,.18);box-shadow:0 8px 28px rgba(14,165,233,.25);background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02));} .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .name{font-size:28px;font-weight:800;letter-spacing:.2px;}
+    .title{font-size:15px;color:var(--muted)}
+    .contacts{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgba(0,0,0,.08);border-radius:999px;color:var(--text);text-decoration:none;background:#f0fdf9}
+    .badge svg{width:16px;height:16px;opacity:.9}
+    .toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .btn{cursor:pointer;border:none;background:linear-gradient(180deg, var(--brand), var(--brand-2)); color:white; padding:8px 12px;border-radius:10px;font-weight:600; box-shadow:var(--ring);}
+    .btn.secondary{background:linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.02)); color:var(--text);}
+
+    nav.lang{display:flex;gap:10px;align-items:center;padding:12px 16px;background:#f9fafb;border-bottom:1px solid #e5e7eb}
+    nav.lang a{color:var(--text);text-decoration:none;font-weight:600;padding:6px 10px;border-radius:8px}
+    nav.lang a:hover{background:rgba(0,210,143,.10)}
+
+    .section{padding:24px 24px}
+    .section h2{margin:8px 0 8px;font-size:22px;font-weight:800}
+    .section h3{margin:16px 0 8px;font-size:16px;color:var(--brand)}
+    .muted{color:var(--muted)}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width:820px){.grid-2{grid-template-columns:1fr 1fr}}
+
+    .card-inner{background:#ffffff;border:1px solid #e5e7eb;border-radius:12px;padding:18px}
+    .list{margin:6px 0;padding-left:18px}
+    .list li{margin:6px 0}
+
+    .timeline{position:relative;margin:10px 0 0 0; padding-left:22px}
+    .timeline:before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:linear-gradient(180deg, var(--brand), var(--brand-2));border-radius:2px}
+    .item{position:relative;margin:14px 0;padding-left:8px}
+    .item:before{content:"";position:absolute;left:-14px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--brand)}
+    .job{font-weight:700}
+    .meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+    footer{padding:22px;color:var(--muted);text-align:center;font-size:12px}
+
+    /* Print */
+    @media print{
+      body{background:white;color:#000}
+      .card, .card-inner{border-color:#ddd}
+      .btn, nav.lang{display:none}
+      .container{margin:0}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tong Nhat Minh",
+    "jobTitle": "Project Manager",
+    "email": "mailto:tongnhatminh.vietnam@gmail.com",
+    "telephone": "+84-85-888-1398",
+    "address": {"@type":"PostalAddress", "addressLocality":"Hanoi", "addressCountry":"VN"}
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="card shadow-hero">
+      <header class="hero">
+        <div class="hero-left">
+        <div class="name">Tong Nhat Minh</div>
+        <div class="title">Project Manager | Digital Products & Automation (Banking/Fintech)</div>
+        <div class="contacts">
+          <a class="badge" href="mailto:tongnhatminh.vietnam@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6h16a2 2 0 0 1 2 2v.2l-10 6-10-6V8a2 2 0 0 1 2-2Zm18 5.3V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4.7l9.4 5.6a2 2 0 0 0 2.1 0L22 11.3Z"/></svg>
+            tongnhatminh.vietnam@gmail.com
+          </a>
+          <a class="badge" href="tel:+84858881398" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1.5 1.5 0 0 1 1.6-.36 9.6 9.6 0 0 0 3 .5 1.5 1.5 0 0 1 1.5 1.5V20a1.5 1.5 0 0 1-1.5 1.5A17.5 17.5 0 0 1 3 7.5 1.5 1.5 0 0 1 4.5 6H7a1.5 1.5 0 0 1 1.5 1.5 9.6 9.6 0 0 0 .5 3 1.5 1.5 0 0 1-.36 1.6L6.6 10.8Z"/></svg>
+            085.888.13.98
+          </a>
+          <span class="badge" aria-label="Location">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
+            Hanoi, Vietnam
+          </span>
+        </div>
+        <div class="toolbar">
+          <button class="btn" onclick="window.print()">Print / Save PDF</button>
+          <button class="btn secondary" onclick="location.hash='#english'">Go to English</button>
+          <button class="btn secondary" onclick="location.hash='#vietnamese'">Đến phần Tiếng Việt</button>
+          <button class="btn secondary" onclick="location.hash='#chinese'">前往中文</button>
+        </div>
+      </div>
+        <figure class="avatar"><img src="minh_cto_360.jpg" alt="Tong Nhat Minh"/></figure>
+      </header>
+
+      <nav class="lang" aria-label="Language shortcuts">
+        <a href="#english">English CV</a>
+        <a href="#vietnamese">CV Tiếng Việt</a>
+        <a href="#chinese">中文简历</a>
+      </nav>
+
+      <!-- ===================== ENGLISH ===================== -->
+      <section id="english" class="section">
+        <h2>ENGLISH CV</h2>
+        <div class="grid-2">
+          <div class="card-inner">
+            <h3>Professional Summary</h3><p>Project Manager with end-to-end product and PMO experience across banking, fintech, and public sector. Strong track record in digital transformation, Agile/Scrum delivery, and building internal automation tools (Power Apps, scripts). Recognized for security mindset (reported mobile app vulnerability), practical problem-solving, and clear stakeholder communication.</p>
+            <h3>Core Skills</h3><ul class="list"><li><strong>Project & Product:</strong> Agile/Scrum, backlog/prioritization, stakeholder management, PMO reporting</li><li><strong>Tech & Tools:</strong> Power Apps, JavaScript, HTML/CSS, SQL, Figma; DDD mindset; AI-driven automation (basic)</li><li><strong>Execution:</strong> research & analysis, training & presentation, negotiation, cross-functional coordination</li></ul>
+          </div>
+          <div class="card-inner">
+            <h3>Education</h3>
+            <p><strong>B.A. in Finance & Banking</strong> — Hanoi University of Business and Technology (2011–2015)</p>
+            <h3>Awards & Notable Achievements</h3>
+            <ul class="list">
+              <li>2nd Prize — Power Transform Digital Transformation Initiative (Sep 2024)</li>
+              <li>2nd Prize — Digital Assistant Initiative (2023)</li>
+              <li>Security recognition: reported ViettelPay vulnerability (Jul 2020)</li>
+              <li>1st Prize — DDD Language Training for Product Owners (Mar 2021)</li>
+              <li>Built automated document collection for VPBank OPS (Jun 2018)</li>
+              <li>Publications: CIEM Journal — “Is Securitization the Key to Handling Bad Debt in Vietnam?” (Jun 2015); University journal — “Is VAMC the Key to Resolving Bad Debt?”</li>
+              <li>KAWAI Scholarship (2014) • Vietnam Talent (Top 3 university teams, 2012) • VTV6 Rainbow Acting Show (Top 17)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-inner" style="margin-top:16px">
+          <h3>Work Experience</h3>
+          <div class="timeline">
+            <div class="item">
+              <div class="job">Senior Specialist (Project Manager) — Business & Product Development Dept., PMO, PVcomBank</div>
+              <div class="meta">Apr 2023 – Present • Hanoi</div>
+              <ul class="list">
+                <li>Manage cross-functional projects; coordinate scope, timelines, and risk/issue logs.</li>
+                <li>Drive digital/product improvements; streamline reporting and internal workflows.</li>
+                <li>Facilitate Agile ceremonies and progress visibility for stakeholders.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Seconded Representative — Region 3 Authority — Postal Department (Vu Buu Chinh), Ministry of Science and Technology</div>
+              <div class="meta">Sep 2021 – Apr 2023 • Hanoi</div>
+              <ul class="list">
+                <li>Supported agricultural digital-transformation pilots; aligned with regulatory requirements.</li>
+                <li>Coordinated execution with local teams, partners, and supervising units.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Product Development Specialist (PO) — Mobile Money Dept., Viettel Digital Services Corp.</div>
+              <div class="meta">Jun 2018 – Aug 2021 • Hanoi</div>
+              <ul class="list">
+                <li>Contributed to mobile money features and roadmap using DDD reasoning.</li>
+                <li>Collaborated with engineering, design, and security; improved delivery discipline.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Post-loan Control Specialist — VPBank</div>
+              <div class="meta">Jul 2016 – May 2018 • Hanoi</div>
+              <ul class="list">
+                <li>Executed post-loan checks and documentation; built automated document collection (2018).</li>
+                <li>Recognized internally for operational improvements.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Business Specialist — FE Credit (VPBank)</div>
+              <div class="meta">Sep 2015 – Jul 2016 • Hanoi</div>
+              <ul class="list">
+                <li>Frontline business execution; Top 10 sales (2016); featured in VPBank magazine (2017).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-inner" style="margin-top:16px">
+          <h3>Interests</h3>
+          <p>Digital tools for public good • Fintech & banking operations • Reading (personal development, customer service, economics) • Travel</p>
+        </div>
+      </section>
+
+      <!-- ===================== VIETNAMESE ===================== -->
+      <section id="vietnamese" class="section">
+        <h2>CV TIẾNG VIỆT</h2>
+        <div class="grid-2">
+          <div class="card-inner">
+            <h3>Tóm tắt năng lực</h3><p>Quản lý dự án với kinh nghiệm trọn vòng đời sản phẩm và PMO trong ngân hàng, fintech và khu vực công. Thúc đẩy chuyển đổi số, triển khai Agile/Scrum, xây các công cụ tự động hóa nội bộ (Power Apps, script). Tư duy an toàn thông tin, giải quyết vấn đề thực dụng, truyền đạt rõ ràng với các bên liên quan.</p>
+            <h3>Kỹ năng chính</h3><ul class="list"><li><strong>Dự án & Sản phẩm:</strong> Agile/Scrum, quản lý backlog/ưu tiên, quản trị stakeholders, báo cáo PMO</li><li><strong>Công nghệ & Công cụ:</strong> Power Apps, JavaScript, HTML/CSS, SQL, Figma; tư duy DDD; tự động hóa ứng dụng AI</li><li><strong>Thực thi:</strong> Nghiên cứu & phân tích, đào tạo & thuyết trình, đàm phán, phối hợp liên phòng ban</li></ul>
+          </div>
+          <div class="card-inner">
+            <h3>Học vấn</h3>
+            <p><strong>Cử nhân Tài chính – Ngân hàng</strong> — ĐH Kinh doanh & Công nghệ Hà Nội (2011–2015)</p>
+            <h3>Giải thưởng & Thành tựu</h3>
+            <ul class="list">
+              <li>Giải Nhì — Sáng kiến Power Transform (09/2024)</li>
+              <li>Giải Nhì — Digital Assistant (2023)</li>
+              <li>Công nhận ATTT: Báo cáo lỗ hổng ứng dụng ViettelPay (07/2020)</li>
+              <li>Giải Nhất — DDD Language Training cho PO (03/2021)</li>
+              <li>Xây hệ thống tự động thu thập chứng từ cho VPBank OPS (06/2018)</li>
+              <li>Bài đăng: Tạp chí CIEM — “Chứng khoán hóa có phải chìa khóa xử lý nợ xấu ở VN?” (06/2015); Tạp chí trường — “VAMC có phải chìa khóa xử lý nợ xấu?”</li>
+              <li>Học bổng KAWAI (2014) • Vietnam Talent (Top 3 đội ĐH, 2012) • VTV6 Rainbow (Top 17)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-inner" style="margin-top:16px">
+          <h3>Kinh nghiệm làm việc</h3>
+          <div class="timeline">
+            <div class="item">
+              <div class="job">Chuyên viên Cao cấp (Quản lý Dự án) — Khối Phát triển Sản phẩm & Kinh doanh, PMO, PVcomBank</div>
+              <div class="meta">04/2023 – Nay • Hà Nội</div>
+              <ul class="list">
+                <li>Quản lý dự án liên phòng ban; điều phối phạm vi, tiến độ, rủi ro/vướng mắc.</li>
+                <li>Thúc đẩy cải tiến quy trình số; tối ưu báo cáo và luồng công việc nội bộ.</li>
+                <li>Tổ chức nghi thức Agile; tăng minh bạch tiến độ cho lãnh đạo.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Cán bộ tăng cường — Khu vực 3 — Vụ Bưu chính, Bộ Khoa học và Công nghệ</div>
+              <div class="meta">09/2021 – 04/2023 • Hà Nội</div>
+              <ul class="list">
+                <li>Hỗ trợ thí điểm chuyển đổi số nông nghiệp; đảm bảo tuân thủ khung quản lý.</li>
+                <li>Phối hợp triển khai với địa phương, đối tác và đơn vị giám sát.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Chuyên viên Phát triển Sản phẩm (PO) — Khối Mobile Money, Tổng Công ty Dịch vụ Số Viettel</div>
+              <div class="meta">06/2018 – 08/2021 • Hà Nội</div>
+              <ul class="list">
+                <li>Tham gia phát triển tính năng và lộ trình sản phẩm theo tư duy DDD.</li>
+                <li>Phối hợp chặt chẽ tech/UX/security; nâng kỷ luật giao hàng.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Chuyên viên Kiểm soát Sau vay — VPBank</div>
+              <div class="meta">07/2016 – 05/2018 • Hà Nội</div>
+              <ul class="list">
+                <li>Thực hiện kiểm soát hồ sơ sau giải ngân; xây giải pháp tự động thu thập chứng từ (2018).</li>
+                <li>Được ghi nhận cho cải tiến vận hành.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">Chuyên viên Kinh doanh — FE Credit (VPBank)</div>
+              <div class="meta">09/2015 – 07/2016 • Hà Nội</div>
+              <ul class="list">
+                <li>Thực thi kinh doanh tuyến đầu; Top 10 sales (2016); lên tạp chí nội bộ (2017).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-inner" style="margin-top:16px">
+          <h3>Sở thích</h3>
+          <p>Công cụ số vì cộng đồng • Fintech & vận hành ngân hàng • Đọc sách (phát triển bản thân, CSKH, kinh tế) • Du lịch</p>
+        </div>
+      </section>
+
+      <!-- ===================== CHINESE ===================== -->
+      <section id="chinese" class="section">
+        <h2>中文简历</h2>
+        <div class="grid-2">
+          <div class="card-inner">
+            <h3>职业概述</h3>
+            <p>项目经理，拥有银行、金融科技与公共部门的端到端产品与 PMO 经验。擅长数字化转型、敏捷/Scrum 交付，以及构建内部自动化工具（Power Apps、脚本）。具备良好的安全意识（曾报告移动应用漏洞）、务实的问题解决能力与清晰的干系人沟通。</p>
+            <h3>核心技能</h3>
+            <ul class="list">
+              <li><strong>项目与产品：</strong> 敏捷/Scrum、待办事项/优先级、干系人管理、PMO 报告</li>
+              <li><strong>技术与工具：</strong> Power Apps、JavaScript、HTML/CSS、SQL、Figma；DDD 思维；基于 AI 的自动化（基础）</li>
+              <li><strong>执行力：</strong> 研究与分析、培训与演示、谈判、跨部门协作</li>
+            </ul>
+          </div>
+          <div class="card-inner">
+            <h3>教育背景</h3>
+            <p><strong>金融与银行学学士</strong> —— 河内工商大学（2011–2015）</p>
+            <h3>奖项与亮点</h3>
+            <ul class="list">
+              <li>二等奖 — Power Transform 数字化转型倡议（2024 年 9 月）</li>
+              <li>二等奖 — Digital Assistant 创新（2023 年）</li>
+              <li>安全认可：报告 ViettelPay 应用漏洞（2020 年 7 月）</li>
+              <li>一等奖 — DDD 语言培训（产品负责人）（2021 年 3 月）</li>
+              <li>为 VPBank OPS 构建自动化凭证收集（2018 年 6 月）</li>
+              <li>发表：CIEM 期刊——“证券化是否是越南不良资产处置关键？”（2015 年 6 月）；校刊——“VAMC 是否是不良资产处置关键？”</li>
+              <li>KAWAI 奖学金（2014）• Vietnam Talent（高校队前三，2012）• VTV6 Rainbow 表演节目（前 17 名）</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-inner" style="margin-top:16px">
+          <h3>工作经历</h3>
+          <div class="timeline">
+            <div class="item">
+              <div class="job">高级专员（项目经理）— 产品与业务发展部，PMO，PVcomBank</div>
+              <div class="meta">2023 年 4 月 – 至今 • 河内</div>
+              <ul class="list">
+                <li>管理跨部门项目；协调范围、进度与风险/问题台账。</li>
+                <li>推动数字化与产品改进；简化报告与内部流程。</li>
+                <li>组织敏捷例会；向管理层透明呈现进度。</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">借调代表（第三区）— 邮政司（Vụ Bưu chính），科学与技术部</div>
+              <div class="meta">2021 年 9 月 – 2023 年 4 月 • 河内</div>
+              <ul class="list">
+                <li>支持农业数字化试点；确保符合监管要求。</li>
+                <li>与地方团队、合作方及监督单位协同落地执行。</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">产品开发专员（PO）— 移动支付部，Viettel 数字服务公司</div>
+              <div class="meta">2018 年 6 月 – 2021 年 8 月 • 河内</div>
+              <ul class="list">
+                <li>基于 DDD 思维参与功能与路线图设计。</li>
+                <li>与工程、设计与安全团队协作；提升交付纪律与质量。</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">贷后控制专员 — VPBank</div>
+              <div class="meta">2016 年 7 月 – 2018 年 5 月 • 河内</div>
+              <ul class="list">
+                <li>执行贷后检查与文档管理；搭建自动化凭证收集（2018）。</li>
+                <li>因运营改进而获内部认可。</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="job">业务专员 — FE Credit（VPBank）</div>
+              <div class="meta">2015 年 9 月 – 2016 年 7 月 • 河内</div>
+              <ul class="list">
+                <li>一线业务执行；2016 年 Top 10 销售；2017 年登上 VPBank 内刊。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card-inner" style="margin-top:16px">
+          <h3>兴趣</h3>
+          <p>公益数字工具 • 金融科技与银行运营 • 阅读（自我成长、客户服务、经济）• 旅行</p>
+        </div>
+      </section>
+
+      <footer>
+        © <span id="y"></span> Tong Nhat Minh — Bilingual CV. Built for GitHub Pages. 
+      </footer>
+    </div>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
