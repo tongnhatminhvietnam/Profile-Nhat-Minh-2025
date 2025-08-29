@@ -107,7 +107,7 @@
           </span>
         </div>
         <div class="toolbar">
-          <button class="btn" onclick="window.print()">Print / Save PDF</button>
+          <button id="print-btn" type="button" class="btn">Print / Save PDF</button>
           <button class="btn secondary" onclick="location.hash='#english'">Go to English</button>
           <button class="btn secondary" onclick="location.hash='#vietnamese'">Đến phần Tiếng Việt</button>
           <button class="btn secondary" onclick="location.hash='#chinese'">前往中文</button>
@@ -359,8 +359,12 @@
       </footer>
     </div>
   </div>
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <script>(function(){
+  var y=document.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
+  var p=document.getElementById('print-btn');
+  if(p){ p.addEventListener('click',function(e){ e.preventDefault(); setTimeout(function(){ window.print(); },0); }); }
+  var qs=new URLSearchParams(location.search);
+  if(qs.has('print')){ setTimeout(function(){ window.print(); },300); }
+})();</script>
 </body>
 </html>
